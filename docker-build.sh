@@ -1,6 +1,6 @@
 #!/bin/bash
 
-version=development
+version=production
 
 sudo docker build -t learnitguide/busapp:${version} .
 sudo docker push learnitguide/busapp:${version}
